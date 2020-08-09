@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*  header */
+
+
+
+/*  Top menu bar */
+.logoimage{
+	position: absolute;
+	top: -10px;
+	left: 5px;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 60px; 
+	margin-left: 100px;
+	font-size: 17px;
+}
+.menu ul li{
+	list-style: none;
+	margin:0 -80px;
+	color:#b2b1b1;
+	cursor: pointer;
+	margin-left: 130px;
+	text-shadow: 2px 2px 0 black;
+}
+.menu ul li a:link{
+	text-decoration: none;
+	color: #b2b1b1;
+}
+.menu ul li a:visited{
+	text-decoration: none;
+	color: #b2b1b1;
+}
+.menu ul li a:hover{
+	text-decoration: none;
+	color: #FB6A83 !important;
+}
+.menu ul li a:active{
+	text-decoration: none;
+	color: #FB6A83 !important;
+}
+
+/*  Signup and Signin Buttons */
+
+.signup-button{
+	top: 40px;
+	right: 170px;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#40505B), radial-gradient(circle at top left, #FE7089,#FE7089);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.signup-button span{
+	display: block;
+	padding: 8px 22px;
+}
+.login-button{
+	top: 40px;
+	right: 300px;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#40505B), radial-gradient(circle at top left, #FE7089,#FE7089);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.login-button span{
+	display: block;
+	padding: 8px 22px;
+}
+
+/*  Heading and content - 1st part */
+
+.heading{
+	width:80%;
+	height: 70%;
+	top: 25%;
+	left: 180px;
+	position: absolute;
+	color: #fff;
+	line-height: 40px;
+	font-size: 18px;
+	
+}
+.head{
+	color:#7C73E6;
+	font-size: 40px;
+	line-height: 50px;
+	text-shadow: 3px 3px 3px black;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading p{
+	float: left;
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 0;
+	line-height: 25px;
+	color: #eaeaea;
+}
+
+/*  1st Image */
+.image1{
+	float: right;
+	margin-right: 160px; 
+	margin-top: 70px;
+	border-radius: 20px;
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image1 img{
+	width: 500px;
+	height: 400px;
+}
+
+/*  Our Platform */
+.share{
+	color: #FE8096;
+	float: left;
+	margin-top: 400px;
+	margin-left: 180px;
+}
+.icons {
+	margin-top: 382px;
+	float: left;
+	padding-left: 30px;
+}
+.inner {
+	width: 53px;
+	height: 60px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, #FB6A83,#40505B);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	text-align: center;
+}
+.inner .fa:hover{
+	color: black;
+	opacity: 80%;
+}
+.inner .fa{
+	padding: 14px 0;
+	color: #D1C8C9;
+	font-size: 25px;
+	opacity: 80%;
+
+}
+
+/*  content 2nd part */
+
+.heading1{
+	top: 113%;
+	left: 830px;
+	position: absolute;
+	color: #fff;
+	line-height: 40px;
+	font-size: 18px;
+	
+}
+.head1{
+	color:#7C73E6;
+	font-size: 40px;
+	line-height: 50px;
+	text-shadow: 3px 3px 3px black;
+}
+.heading1 h1{
+	font-size: 40px;
+}
+.heading1 p{
+	float: left;
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 0;
+	line-height: 25px;
+	color: #eaeaea;
+}
+
+/*  2nd Image */
+.image2{
+	float: left;
+	margin-left: 160px; 
+	margin-top: 250px;
+	border-radius: 20px;
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 30px 30px 30px 30px;
+}
+.image2 img{
+	width: 450px;
+	height: 350px;
+	border-radius: 20px;
+}
+
+/*  content 3rd part */
+.heading2{
+	width:80%;
+	height: 70%;
+	top: 195%;
+	left: 180px;
+	position: absolute;
+	color: #fff;
+	line-height: 40px;
+	font-size: 18px;
+	
+}
+.head2{
+	color:#FB6A83;
+	font-size: 40px;
+	line-height: 50px;
+	text-shadow: 3px 3px 3px black;
+}
+.heading2 h1{
+	font-size: 40px;
+}
+.heading2 p{
+	float: left;
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 0;
+	line-height: 25px;
+	color: #eaeaea;
+}
+
+/*  3rd Image */
+.image3{
+	float: right;
+	margin-right: 160px; 
+	margin-top: 830px;
+	border-radius: 20px;
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image3 img{
+	width: 500px;
+	height: 400px;
+	opacity: 80%;
+}
+
+
+
+/*  content 4th part */
+.heading3{
+	top: 275%;
+	height: 80%;
+	left: 830px;
+	position: absolute;
+	color: #fff;
+	line-height: 40px;
+	font-size: 18px;
+	
+}
+.head3{
+	color:#FB6A83;
+	font-size: 40px;
+	line-height: 50px;
+	text-shadow: 3px 3px 3px black;
+}
+.heading3 h1{
+	font-size: 40px;
+}
+.heading3 p{
+	float: left;
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 0;
+	line-height: 25px;
+	color: #eaeaea;
+}
+
+/*  4th Image */
+.image4{
+	float: left; 
+	margin-left: 180px;
+	margin-top: 830px;
+	border-radius: 20px;
+	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image4 img{
+	width: 450px;
+	height: 350px;
+	padding: 20px 20px 20px 20px;
+	opacity: 70%;
+}
+
+
+
+
+/*  Footer  */
+
+.footer{                              /*  Footer background */
+	top: 340%;
+	width: 100%;
+	height: 35%;
+	position: absolute;
+	overflow: hidden;
+	padding: 50px 0;
+	box-sizing: border-box;
+	background-color: #14151C;
+}
+.inner-footer{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+}
+.inner-footer .logocontainer{
+	width: 30%;
+	float: left;
+	margin-top: -25px;
+	margin-left: -50px;
+	height: 100%;
+	display: block;
+}
+.inner-footer .logocontainer img{         /* Footer logo img */
+	width: 155px;
+	height: auto;
+}
+.inner-footer .logocontainer p{           /*footer logo text */
+	color: white;
+	font-size: 15px;
+	line-height: 13px;
+	color: #A3A4AC;
+}
+.inner-footer .footerthird{
+	width: 250px;
+	margin-right: 10px;
+	float: left;
+	height: 100%;
+}
+.inner-footer .footerthird:last-child{
+	margin-right: 0;
+}
+.inner-footer .footerthird h1{			/* Footer text */
+	font-family: 'arial';
+	font-size: 20px;
+	color: white;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.inner-footer .footerthird a{				/* Footer link */
+	font-family: 'arial';
+	font-size: 15px;
+	color: #A3A4AC;
+	display: block;
+	font-weight: 200px;
+	width: 100%;
+	margin-bottom: 20px;
+	text-decoration: none;
+	line-height: 10px;
+}
+.inner-footer .footerthird li{			/* connect with us and icons */
+	display: inline-block;
+	color: #A3A4AC;
+	padding: 0 5px;
+	letter-spacing: 15px;
+}
+.inner-footer .footerthird span{
+	margin-top: -25px;
+	font-family: 'arial';
+	color: #A3A4AC;
+	font-size: 15px;
+	font-weight: 200;
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+	line-height: 27px;
+}
+
