@@ -7,6 +7,7 @@ Step 2: If you like to make any changes in the stylesheet, open Style.css file i
 
 Step 3: Do not change the picture directory.
 
+Step 4: Refer the comments added at each part of code to make quick edit and for better understanding.
 
 # Developed by-
 R.Yogesh Kumar
